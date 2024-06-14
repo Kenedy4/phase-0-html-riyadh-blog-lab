@@ -1,4 +1,4 @@
-require ( './helpers.js' );
+require("./helpers.js");
 
 const chai = require("chai");
 chai.use(require("chai-dom"));
@@ -56,7 +56,6 @@ describe("index.html", () => {
         "The city is divided into 15 municipal districts"
       );
     });
-
 
     it("has three <img> elements with the correct attributes", () => {
       const wrapper = document.querySelector("#content");
